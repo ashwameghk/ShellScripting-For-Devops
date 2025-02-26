@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+read -p "EnterUsername: " username
+echo "you created $username"
+
+sudo useradd -m $username
+
+
+echo "New User $username Added"
+
+

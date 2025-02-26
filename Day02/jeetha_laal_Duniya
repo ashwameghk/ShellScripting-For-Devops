@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# This is jeetha laal ki duniya
+
+<<comment
+this is my world
+comment
+
+
+name="Ashwamegh Khotkar"
+
+
+echo "Name is $name and $(date)"
+
+echo "Enter your name:"
+
+read username
+
+echo "You entered $username"
+
+echo "The charachters in $0 are: $1 $2 $3"
